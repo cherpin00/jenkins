@@ -1,3 +1,3 @@
 def info(message) {
-    rintln("$message\n")
+    println("$message\n")
 }
