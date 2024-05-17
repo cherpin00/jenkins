@@ -1,3 +1,5 @@
+import mi300c_4P
+
 pipeline {
   agent any
   stages {
