@@ -1,6 +1,6 @@
 package vars
 import groovy.transform.InheritConstructors
-import platform
+import vars.platform
 
 @InheritConstructors
 class mi300c_4P extends platform {
