@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo "building"
+        log.info "Hello World!"
         sleep 10
       }
     }
