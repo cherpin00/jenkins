@@ -24,7 +24,7 @@ pipeline {
     stage('Call Class'){
       steps{
         script{
-          def testPlatform = new mi300c_4p('releaseType','testType','platformType')
+          def testPlatform = new mi300c_4P('releaseType','testType','platformType')
           print(testPlatform.releaseType)
         }
       }
