@@ -1,5 +1,4 @@
 import mi300c_4P
-import platform
 
 pipeline {
   agent any
