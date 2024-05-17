@@ -1,5 +1,3 @@
-package src
-
 abstract class paltform{
     String releaseType
     String testType
