@@ -1,4 +1,4 @@
-abstract class paltform{
+abstract class platform{
     String releaseType
     String testType
     String platformType
