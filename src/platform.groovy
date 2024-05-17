@@ -1,4 +1,4 @@
-package vars
+package src
 
 abstract class paltform{
     String releaseType
