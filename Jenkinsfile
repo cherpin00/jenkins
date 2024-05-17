@@ -21,5 +21,13 @@ pipeline {
         echo "deploying"
       }
     }
+    stage('Call Class'){
+      steps{
+        script{
+          def testPlatform = new mi300c_4p('releaseType','testType','platformType')
+          print(testPlatform.releaseType)
+        }
+      }
+    }
   }
 }
