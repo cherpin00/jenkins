@@ -1,4 +1,5 @@
 //import mi300c_4P
+@Library(['MyLibrary']) _
 
 pipeline {
   agent any
